@@ -1,0 +1,15 @@
+@font-face {
+    font-family: 'YekanBakhMedium';
+    src: url('/fonts/YekanBakhMedium.woff') format('woff');
+  }
+  @font-face {
+    font-family: 'YekanBakhFat';
+    src: url('/fonts/YekanBakh-Fat.woff') format('woff');
+  }
+  @font-face {
+    font-family: 'Vazirmatn';
+    src: url('/fonts/Vazirmatn-Regular.woff2') format('woff2');
+  }
+ 
+ 
+  

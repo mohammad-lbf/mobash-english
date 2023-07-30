@@ -1,0 +1,102 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  outline: none;
+  font-family: 'Vazirmatn';
+}
+a{
+  text-decoration: none !important;
+}
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(150, 150, 150);
+  border-radius: 6px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+.text-main-color-1{
+  color: #654fef;
+  }
+  .mh-100vh{
+      min-height: 100vh;
+  }
+  .fw-400{
+      font-weight: 400;
+  }
+  .w-60{
+      width: 60px;
+      height: 60px;
+  }
+  .fs-13{
+      font-size: 13px;
+  }
+
+  .fs-10{
+      font-size: 10px;
+  }
+  .ff-ybakh{
+      font-family: 'YekanBakhMedium';
+  }
+  .ff-ybakh-fat{
+      font-family: 'YekanBakhFat';
+  }
+  
+  .fw-900{
+     font-weight:900; 
+  }
+  .btn-main-1{
+      background-color: #735ff2;
+      border: none;
+      border-radius: 10px;
+      outline: none;
+      color: #fff;
+      transition: all 0.3s;
+      /* opacity: 0.9; */
+  }
+  .btn-main-2{
+      background-color: rgb(232, 234, 246);
+      border: none;
+      border-radius: 10px;
+      outline: none;
+      color: #654fef;
+      transition: all 0.3s;
+  }
+  .btn-main-1:hover{
+      background-color: #422bdb;
+      border: none;
+      border-radius: 10px;
+      outline: none;
+      color: #fff;
+      
+  }
+  .btn-main-2:hover{
+      background-color: rgb(220, 224, 244);
+      border: none;
+      border-radius: 10px;
+      outline: none;
+      color: #654fef;
+  }
+  .bg-gradient-1{
+      background: transparent;
+      background-image: -moz-linear-gradient(220deg, rgba(41,155,219,1) 0%, rgba(221,0,253,1) 100%);
+      background-image: -webkit-linear-gradient(220deg, rgba(41,155,219,1) 0%, rgba(221,0,253,1) 100%);
+      background-image: linear-gradient(220deg, rgba(41,155,219,1) 0%, rgba(221,0,253,1) 100%);
+      filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#299bdb",endColorstr="#dd00fd",GradientType=1);
+  }
+  .text-color-milky{
+  color: #f5f5f5;
+  }
