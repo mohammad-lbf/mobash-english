@@ -2,7 +2,7 @@ import React from 'react';
 
 const CommonMistakes = () => {
     return (
-        <div>
+        <div className="mh-100vh">
             اشتباهات رایج زبان انگلیسی
         </div>
     );

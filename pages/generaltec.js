@@ -1,6 +1,6 @@
 const generaltec = () => {
     return (
-        <div>
+        <div className="mh-100vh">
             آموزش های عمومی
         </div>
     );

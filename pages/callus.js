@@ -1,6 +1,6 @@
 const callus = () => {
     return (
-        <div>
+        <div className="mh-100vh">
             تماس با ما
         </div>
     );

@@ -1,11 +1,11 @@
 import React from 'react';
 
-const Articles = () => {
+const Grammers = () => {
     return (
         <div className="mh-100vh">
-            مقالات
+            گرامر
         </div>
     );
 };
 
-export default Articles;
+export default Grammers;

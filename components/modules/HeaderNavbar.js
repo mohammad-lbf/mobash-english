@@ -13,7 +13,7 @@ const HeaderNavbar = () => {
                 آموزش های عمومی
             </Link>
             <ul className="mb-0 p-0" style={{listStyle:"none"}}>
-            <li className={`${styles.headerMenuItem} text-center ${styles.hasSubmenu}`}><i className="bi bi-chevron-down me-1"></i><span className="ff-ybakh">مقالات زبان انگلیسی</span>
+            <li className={`${styles.headerMenuItem} text-center ${styles.hasSubmenu}`}><i className={`${router.pathname == "/articles" && styles.headerNavActiveLink} bi bi-chevron-down`}></i><span className={`${router.pathname == "/articles" && styles.headerNavActiveLink} ff-ybakh`}>مقالات زبان انگلیسی</span>
                 <ul style={{listStyle:"none"}} className={`${styles.submenu} text-end`}>
                   <li>
                       <Link className="w-100 text-decoration-none text-dark" href="/articles/commonmistakes">
@@ -24,11 +24,11 @@ const HeaderNavbar = () => {
                     <i className="bi bi-chevron-left"></i>گرامر
                   </div>
                     <ul className={`${styles.submenu} ${styles.submenuInner}`}>
-                      <li className="w-100"><Link className="text-decoration-none w-100" href="/grammers">همه گرامر ها</Link></li>
-                      <li className="w-100"><Link className="text-decoration-none w-100 d-flex flex-row-reverse" href=""><span className="ms-1">12</span><span>زمان انگلیسی</span></Link></li>
-                      <li className="w-100"><Link className="text-decoration-none w-100" href="">جملات شرطی</Link></li>
-                      <li className="w-100"><Link className="text-decoration-none w-100" href="">مصدر و اسم مصدر</Link></li>
-                      <li className="w-100"><Link className="text-decoration-none w-100" href="">سایر</Link></li>
+                      <li className="w-100"><Link className="text-decoration-none w-100" href="/articles/grammer/allgrammers">همه گرامر ها</Link></li>
+                      <li className="w-100"><Link className="text-decoration-none w-100 d-flex flex-row-reverse" href="/articles/grammer/times"><span className="ms-1">12</span><span>زمان انگلیسی</span></Link></li>
+                      <li className="w-100"><Link className="text-decoration-none w-100" href="/articles/grammer/conditionals">جملات شرطی</Link></li>
+                      <li className="w-100"><Link className="text-decoration-none w-100" href="/articles/grammer/infinitives">مصدر و اسم مصدر</Link></li>
+                      <li className="w-100"><Link className="text-decoration-none w-100" href="/articles/grammer/othergrammers">سایر</Link></li>
                     </ul>
                   </li>
                 </ul>

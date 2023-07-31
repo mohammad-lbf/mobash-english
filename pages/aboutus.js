@@ -1,6 +1,6 @@
 const Aboutus = () => {
     return (
-        <div>
+        <div className="mh-100vh">
             درباره ما
         </div>
     );

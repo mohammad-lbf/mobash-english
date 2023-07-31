@@ -34,19 +34,19 @@ const Footer = () => {
                         بخش های سایت
                     </p>
                     <nav style={{width:"fit-content"}} className="d-flex flex-column text-center text-lg-end">
-                        <Link  className={`mx-2 mb-2 ff-ybakh pb-1 ${styles.scaleHover}`} href="#">
+                        <Link  className={`mx-2 mb-2 ff-ybakh pb-1 ${styles.scaleHover}`} href="/">
                             صفحه اصلی
                         </Link>
-                        <Link  className={`mx-2 mb-2 ff-ybakh pb-1 ${styles.scaleHover}`} href="#">
+                        <Link  className={`mx-2 mb-2 ff-ybakh pb-1 ${styles.scaleHover}`} href="/generaltec">
                             آموزش های عمومی
                         </Link>
-                        <Link  className={`mx-2 mb-2 ff-ybakh pb-1 ${styles.scaleHover}`} href="#">
+                        <Link  className={`mx-2 mb-2 ff-ybakh pb-1 ${styles.scaleHover}`} href="/articles">
                             مقالات زبان انگلیسی
                         </Link>
-                        <Link  className={`mx-2 mb-2 ff-ybakh pb-1 ${styles.scaleHover}`} href="#">
+                        <Link  className={`mx-2 mb-2 ff-ybakh pb-1 ${styles.scaleHover}`} href="/aboutus">
                             درباره ما
                         </Link>
-                        <Link  className={`mx-2 mb-2 ff-ybakh ${styles.scaleHover} pb-1`} href="#">
+                        <Link  className={`mx-2 mb-2 ff-ybakh ${styles.scaleHover} pb-1`} href="/callus">
                             تماس با ما
                         </Link>
                     </nav>
@@ -58,10 +58,10 @@ const Footer = () => {
       :ما را در شبکه های اجتماعی دنبال کنید
     </p>
     <div className="d-flex justify-content-center">
-      <a className={`text-decoration-none ${styles.scaleHover}`} href="https://instagram.com/english_with_mobash?igshid=MzNlNGNkZWQ4Mg==">
+      <a className={`text-decoration-none ${styles.scaleHover}`} rel="noreferrer" href="https://instagram.com/english_with_mobash?igshid=MzNlNGNkZWQ4Mg==">
         <i className="fs-2 mx-3 bi bi-instagram"></i>
       </a>
-      <a className={`text-decoration-none ${styles.scaleHover}`} href="https://youtube.com/@MobashEnglish">
+      <a className={`text-decoration-none ${styles.scaleHover}`} rel="noreferrer" href="https://youtube.com/@MobashEnglish">
         <i className=" fs-2  mx-3 bi bi-youtube"></i>
       </a>
   </div>
