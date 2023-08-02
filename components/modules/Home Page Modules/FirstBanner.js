@@ -12,7 +12,7 @@ const FirstBanner = () => {
               className="row  flex-lg-row align-items-center justify-content-lg-between">
                     <div className='col-12 col-lg-6'>
                     <video className='w-100 rounded' controls>
-                        <source src="/videos/InShot_۲۰۲۳۰۸۰۲_۱۱۴۴۲۷۰۲۱.mp4" type="video/mp4" />
+                        <source src="/videos/InShot_۲۰۲۳۰۸۰۲_۲۰۵۷۲۵۷۰۶.mp4" type="video/mp4" />
                     </video>
                     </div>
                   <div className="col-12 col-lg-5 text-center">

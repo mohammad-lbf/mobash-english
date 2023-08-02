@@ -14,7 +14,7 @@ const GrammersRow = ({grammerCategories}) => {
                     <p className="text-center text-lg-center ff-ybakh mb-4">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است</p>
 
                         {grammerCategories ? 
-                            grammerCategories.map(grammer => <div className="col-12 col-md-6 col-lg-4 col-xxl-3 d-flex justify-content-center mb-3 mb-xxl-0">
+                            grammerCategories.map(grammer => <div key={grammer.slug} className="col-12 col-md-6 col-lg-4 col-xxl-3 d-flex justify-content-center mb-3 mb-xxl-0">
                                     <Card cardSlug={`/articles/grammer/${grammer.slug}`} linkType="مقالات" {...grammer} />
                             </div>)
                             : <p>error</p>

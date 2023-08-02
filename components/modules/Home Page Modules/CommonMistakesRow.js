@@ -12,7 +12,7 @@ const CommonMistakesRow = ({commonMistakes}) => {
                     <p className="text-center text-lg-center ff-ybakh mb-4">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است</p>
 
                         {commonMistakes ? 
-                            commonMistakes.slice(0,4).map(commonMistake => <div className="col-12 col-md-6 col-lg-4 col-xxl-3 d-flex justify-content-center mb-3 mb-xxl-0">
+                            commonMistakes.slice(0,4).map(commonMistake => <div key={commonMistake.slug} className="col-12 col-md-6 col-lg-4 col-xxl-3 d-flex justify-content-center mb-3 mb-xxl-0">
                                     <Card cardSlug={`/articles/commonmistakes/${commonMistake.slug}`}  linkType="مقاله" {...commonMistake} />
                             </div>)
                             : <p>error</p>
