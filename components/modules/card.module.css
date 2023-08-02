@@ -1,0 +1,31 @@
+.card{
+    width: 300px;
+    height: 390px;
+    overflow: hidden;
+}
+.cardImage{
+    transition: all 0.5s;
+}
+.cardImage:hover{
+    transform: scale(1.1);
+}
+.cardDescription{
+    width: 270px;
+    height: 100px;
+    margin: 10px 0;
+    font-size: 13.5px;
+    line-height: 25px;
+    text-align: justify;
+    direction: rtl;
+    color: rgb(47, 47, 47);
+}
+.cardBtn{
+    width: 280px;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px 0px;
+    background-color: rgb(3, 34, 192);
+    color: #fff;
+    text-decoration: none;
+
+}

@@ -31,6 +31,12 @@ a{
 .text-main-color-1{
   color: #654fef;
   }
+.border-bottom-main-1{
+  border-bottom: #422bdb 4px solid;
+}
+.w-fitcontent{
+  width: fit-content !important;
+}
   .mh-100vh{
       min-height: 100vh;
   }
@@ -44,6 +50,9 @@ a{
   .fs-13{
       font-size: 13px;
   }
+  .fs-15{
+    font-size: 15px;
+  }
 
   .fs-10{
       font-size: 10px;
@@ -53,6 +62,9 @@ a{
   }
   .ff-ybakh-fat{
       font-family: 'YekanBakhFat';
+  }
+  .ff-enrique{
+    font-family: 'enrique';
   }
   
   .fw-900{

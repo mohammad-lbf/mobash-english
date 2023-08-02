@@ -1,11 +1,11 @@
-import React from 'react';
-
-const Articles = () => {
+const Articles = ({}) => {
     return (
         <div className="mh-100vh">
-            مقالات
+            
         </div>
     );
 };
 
 export default Articles;
+
+

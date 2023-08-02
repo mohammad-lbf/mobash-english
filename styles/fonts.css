@@ -10,6 +10,10 @@
     font-family: 'Vazirmatn';
     src: url('/fonts/Vazirmatn-Regular.woff2') format('woff2');
   }
+  @font-face {
+    font-family: 'enrique';
+    src: url(/fonts/Enrique-LightRound.woff) format('woff');
+  }
  
  
   
