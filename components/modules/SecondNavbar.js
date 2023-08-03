@@ -38,9 +38,9 @@ const SecondNavbar = () => {
                         </div>  
                     </div>
                     <div className="col-12 col-md-6 col-xl-5">
-                        <div className="mt-4 mt-md-0 p-lg-0 d-flex flex-column-reverse flex-sm-row justify-content-center justify-content-md-start align-items-center">
+                        <div className="mt-4 mt-md-0 p-lg-0 d-flex flex-row justify-content-between w-100 justify-content-md-start align-items-center">
                             <NeonButton name={`تعیین سطح آنلاین`} clickHandler={()=> route.push("/tests/placement-test") } />
-                            <span className="fs-13 mb-3 mb-sm-0 ms-0 ms-sm-3">
+                            <span className="fs-13 mb-sm-0 ms-0 ms-3">
                                 !همین الان تعیین سطح کن
                             </span>
                         </div>
