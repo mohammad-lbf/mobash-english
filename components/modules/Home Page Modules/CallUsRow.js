@@ -6,7 +6,7 @@ const CallUsRow = () => {
                             باهامون در ارتباط باش
                         </p>
                         <div className="d-flex align-items-center">
-                            <a style={{color:"#000" , width:"50px"}} className="mx-3 text-derk" href="https://instagram.com/english_with_mobash?igshid=MzNlNGNkZWQ4Mg==" rel="noreferrer">
+                            <a target="_blank" style={{color:"#000" , width:"50px"}} className="mx-3 text-derk" href="https://instagram.com/english_with_mobash?igshid=MzNlNGNkZWQ4Mg==" rel="noreferrer">
                                 <div className="d-flex text-derk flex-column align-items-center">
                                 <i style={{fontSize:"30px"}} class="text-derk bi bi-instagram"></i>
                                 <span className="text-derk">
@@ -14,7 +14,7 @@ const CallUsRow = () => {
                                 </span>
                                 </div>
                             </a>
-                            <a style={{color:"#dc3545" , width:"50px"}} className="mx-3 text-derk" href="https://youtube.com/@MobashEnglish" rel="noreferrer">
+                            <a target="_blank" style={{color:"#dc3545" , width:"50px"}} className="mx-3 text-derk" href="https://youtube.com/@MobashEnglish" rel="noreferrer">
                             <div className="d-flex flex-column align-items-center">
                                 <i style={{fontSize:"30px"}} class="bi bi-youtube"></i>
                                 <span>
@@ -22,7 +22,7 @@ const CallUsRow = () => {
                                     </span>
                             </div>
                             </a>
-                            <a style={{color:"#000" , width:"50px"}} className="mx-3 text-derk" href="Ah.mobashery@gmail.com" rel="noreferrer">
+                            <a target="_blank" style={{color:"#000" , width:"50px"}} className="mx-3 text-derk" href = "mailto:Ah.mobasheri@example.com?subject = Feedback&body = Message" rel="noreferrer">
                                 <div className="d-flex flex-column align-items-center">
                                     <i style={{fontSize:"30px"}} class="bi bi-envelope-open-fill"></i>
                                     <span>

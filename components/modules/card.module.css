@@ -5,6 +5,7 @@
 }
 .cardImage{
     transition: all 0.5s;
+    height: 170px;
 }
 .cardImage:hover{
     transform: scale(1.1);

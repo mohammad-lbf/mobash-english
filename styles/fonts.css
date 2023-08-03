@@ -14,6 +14,11 @@
     font-family: 'enrique';
     src: url(/fonts/Enrique-LightRound.woff) format('woff');
   }
+  @font-face {
+    font-family: 'yekanBakhExtraBold';
+    src: url(/fonts/YekanBakh-ExtraBlack.woff) format('woff');
+  }
+
  
  
   
