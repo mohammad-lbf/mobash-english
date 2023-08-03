@@ -4,7 +4,7 @@ import styles from './card.module.css';
 const Card = ({coverPhoto , title , cardSlug , description , linkType}) => {
     return (
         <div className={`${styles.card} m-0 d-flex flex-column align-items-center bg-white border rounded shadow`}>
-            <img className={`${styles.cardImage} w-100`} src={coverPhoto.url} alt="" />
+            <img loading='lazy' className={`${styles.cardImage} w-100`} src={coverPhoto.url} alt="" />
             <div className="d-flex flex-column align-items-center">
               <Link className="text-decoration-none text-center text-dark w-100 mb-0 p-0" href={cardSlug}>
                 <p 

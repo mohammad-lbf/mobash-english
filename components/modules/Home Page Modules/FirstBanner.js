@@ -11,7 +11,7 @@ const FirstBanner = () => {
               style={{padding:"70px 0"}}
               className="row  flex-lg-row align-items-center justify-content-lg-between">
                     <div className='col-12 col-lg-6'>
-                    <video className='w-100 rounded' controls>
+                    <video preload='none' className='w-100 rounded' controls>
                         <source src="/videos/InShot_۲۰۲۳۰۸۰۲_۲۰۵۷۲۵۷۰۶.mp4" type="video/mp4" />
                     </video>
                     </div>
